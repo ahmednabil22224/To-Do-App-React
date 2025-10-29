@@ -21,3 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+# Reports or local assets
+*.pdf
+*.zip
+*.env

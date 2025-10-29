@@ -1,70 +1,121 @@
-# Getting Started with Create React App
+✅ To-Do List App (React + Context API + Reducer)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern and responsive Task Management App built with React, Context API, and useReducer, allowing you to add, edit, delete, and mark tasks as important or completed — with full local storage persistence.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+🚀 Live Demo
 
-### `npm start`
+👉 https://github.com/ahmednabil22224/To-Do-App-React
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+⚙️ Features
 
-### `npm test`
+- 🧩 Context API + useReducer for clean and scalable state management
+- 💾 Local Storage — tasks are saved even after page refresh
+- 🌗 Responsive Design using Tailwind CSS
+- ✨ Add, Delete, Update, and Mark Tasks
+- ⭐ Mark tasks as Important
+- ✅ Check or Uncheck completed tasks
+- 🕵️‍♂️ Search tasks easily
+- 🧱 Clean folder structure (hooks/, components/, tasks/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🧠 Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Category Tools
+- Frontend React (Functional Components + Hooks)
+- State Management Context API + useReducer
+- Styling Tailwind CSS
+- Storage Browser LocalStorage
+- Build Tool Create React App
+- Icons React Icons
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+📂 Folder Structure
+src/
+│
+├── components/
+│   ├── AddTask.jsx
+│   ├── Footer.jsx
+│   ├── Header.jsx
+│   ├── OverlayModal.jsx
+│   ├── Task.jsx
+│   └── FullTasks.jsx
+│
+├── hooks/
+│   ├── TasksContext.jsx
+│   └── TasksReducer.jsx
+│
+├── images/
+│   ├── screenshot.png
+│   └── lighthouse-report.png
+│
+├── App.jsx
+├── index.js
+└── styles/
+    └── tailwind.css
+```
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📸 Preview
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Desktop View**
+![Desktop Preview](./src/images/screenshot.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🌟 Lighthouse Report
 
-## Learn More
+| Metric            | Score |
+| ----------------- | ----- |
+| ⚡ Performance    | 100%   |
+| ♿ Accessibility  | 100%  |
+| 🛡️ Best Practices | 100%  |
+| 🔍 SEO            | 100%  |
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+images/lighthouse-report.png
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## ⚡ Lighthouse Report
 
-### Code Splitting
+![Lighthouse Report](./src/images/lighthouse-report.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+🧩 Tested with production build served using serve -s build and Chrome Incognito mode.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+🧰 Installation & Setup
 
-### Making a Progressive Web App
+1️⃣ Clone the repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+git clone https://github.com/ahmednabil22224/To-Do-App-React.git
 
-### Advanced Configuration
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+2️⃣ Install dependencies
 
-### Deployment
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+3️⃣ Run in development mode
 
-### `npm run build` fails to minify
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+App runs on http://localhost:3000
+
+4️⃣ Build for production
+
+npm run build
+
+5️⃣ Serve locally (to test production build)
+
+npm install -g serve
+serve -s build
+
+---
