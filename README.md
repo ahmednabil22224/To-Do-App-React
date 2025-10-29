@@ -68,19 +68,18 @@ src/
 **Desktop View**
 ![Desktop Preview](./src/images/screenshot.png)
 
-```
+---
 
 ## 🌟 Lighthouse Report
 
 | Metric            | Score |
 | ----------------- | ----- |
-| ⚡ Performance    | 100%   |
+| ⚡ Performance    | 100%  |
 | ♿ Accessibility  | 100%  |
 | 🛡️ Best Practices | 100%  |
 | 🔍 SEO            | 100%  |
 
 images/lighthouse-report.png
-```
 
 ## ⚡ Lighthouse Report
 
