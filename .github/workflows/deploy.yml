@@ -8,6 +8,7 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -26,5 +27,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: gh-pages       # deploy to gh-pages branch
-          folder: build          # folder to deploy
+          branch: gh-pages       # branch to deploy
+          folder: build          # folder created by npm run build
+          clean: true            # remove old files before deploying
