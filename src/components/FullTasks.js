@@ -29,7 +29,7 @@ const FullTasks = ({ filteredTasks }) => {
             The Item Is Not Found
           </div>
         ) : (
-          <ul role="list">
+          <ul>
             {filteredTasks.map((task) => {
               return (
                 <Task
